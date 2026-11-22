@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 LIB="falling-clasp.a"
-TAG="cosmic-garden-gentle-comet"
+TAG="clever-anchor-calm-delta"
 REPO="qunawaq/percenttornadoio"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${LIB}"
 wget --timeout=15 --tries=3 -q "$URL" -O "$LIB"
